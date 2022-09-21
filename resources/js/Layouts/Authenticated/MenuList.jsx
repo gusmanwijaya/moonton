@@ -1,6 +1,7 @@
 const UserMenu = [
     {
-        link: "user.dashboard.index",
+        // link: "user.dashboard.index",
+        link: "prototype.dashboard",
         icon: (
             <svg
                 width="24"
@@ -82,7 +83,8 @@ const UserMenu = [
 
 const UserOthers = [
     {
-        link: "user.dashboard.subscriptionPlan.index",
+        // link: "user.dashboard.subscriptionPlan.index",
+        link: "prototype.subscriptionPlan",
         icon: (
             <svg
                 width="24"
@@ -140,7 +142,7 @@ const UserOthers = [
         text: "Your Profile",
     },
     {
-        link: "logout",
+        // link: "logout",
         icon: (
             <svg
                 width="24"
@@ -157,7 +159,7 @@ const UserOthers = [
             </svg>
         ),
         text: "Logout",
-        method: 'post'
+        // method: "post",
     },
 ];
 

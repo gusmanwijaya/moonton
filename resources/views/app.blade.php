@@ -6,6 +6,8 @@
 
         <title inertia>{{ config('app.name', 'Moonton') }}</title>
 
+        <link rel="shortcut icon" href="/logo-moonton.svg" type="image/x-icon">
+
         <!-- Fonts -->
         <style>
             @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");

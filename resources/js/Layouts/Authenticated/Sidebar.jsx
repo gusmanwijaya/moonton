@@ -15,7 +15,7 @@ export default function Sidebar() {
                         {UserMenu?.map((menu, index) => (
                             <MenuItem
                                 key={`${index}-${menu?.text}`}
-                                // link={menu?.link}
+                                link={menu?.link}
                                 icon={menu?.icon}
                                 text={menu?.text}
                                 isActive={
@@ -29,7 +29,7 @@ export default function Sidebar() {
                         {UserOthers?.map((menu, index) => (
                             <MenuItem
                                 key={`${index}-${menu?.text}`}
-                                // link={menu?.link}
+                                link={menu?.link}
                                 icon={menu?.icon}
                                 text={menu?.text}
                                 isActive={
